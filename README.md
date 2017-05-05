@@ -1,6 +1,23 @@
 # lazyLoad
 
 * javaScript 懒加载
+
+```html
+    <img class="lazyload" src="defult.png" lazyload-src="realimg.png" >
+```
+
+```javascript  
+    var option = {
+            time: 1000,
+            delay: 500,
+            selector: 'lazyload',
+            src: 'lazyload-src',
+            modeType: 0
+        }
+        
+    lazyLoad.init(option)
+```
+                
 ## init
 * lazyLoad.init(option);
 #### option 初始化配置参数
