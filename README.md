@@ -1,6 +1,6 @@
 # lazyLoad
 
-* javaScript 懒加载
+* javaScript 原声JS懒加载
 
 ```html
     <img class="lazyload" src="defult.png" lazyload-src="realimg.png" >
@@ -14,7 +14,7 @@
             src: 'lazyload-src',
             modeType: 0
         }
-        
+
     lazyLoad.init(option)
 ```
                 
