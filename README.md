@@ -45,7 +45,7 @@
 * lazyLoad.attach();
 * 触发页面可见区域图片加载
 
-##modeTpe
+## modeType
 
 * 默认值：'src'
 * 描述:设置懒加载对象类型。src-img标签，bg-背景图
