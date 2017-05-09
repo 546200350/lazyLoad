@@ -3,7 +3,7 @@
 * javaScript 原生JS懒加载
 
 ```html
-    <img class="lazyload" src="defult.png" lazyload-src="realimg.png" >
+    <img class="lazyload" src="defult.png" lazyload-src="realimg.png" modeType="src" >
 ```
 
 ```javascript  
@@ -11,8 +11,7 @@
             time: 1000,
             delay: 500,
             selector: 'lazyload',
-            src: 'lazyload-src',
-            modeType: 0
+            src: 'lazyload-src'
         }
 
     lazyLoad.init(option)
@@ -41,15 +40,12 @@
 * 描述：真实图片地址属性
 * 默认值：'lazyload-src'
 
-**modeType:** 
-
-* 描述：懒加载模式0-img标签，设置src
-*                 1-背景，设置backgroundImg
-* 默认值：0
-
-
 
 ## attach
 * lazyLoad.attach();
 * 触发页面可见区域图片加载
 
+##modeTpe
+
+* 默认值：'src'
+* 描述:设置懒加载对象类型。src-img标签，bg-背景图
